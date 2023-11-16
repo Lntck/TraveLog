@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>menu (1).png</file>
+    <file>menu (2).png</file>
+    <file>menu.png</file>
+    <file>home-icon-silhouette.png</file>
+    <file>logo_transparent.png</file>
+    <file>album.png</file>
+    <file>favicon.png</file>
+    <file>home-icon-silhouette.png</file>
+    <file>logo.png</file>
+    <file>logo_transparent.png</file>
+    <file>on-off-button.png</file>
+    <file>settings.png</file>
+  </qresource>
+</RCC>

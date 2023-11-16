@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>420</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Register</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="3" column="0">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="4" column="0">
+        <widget class="QPushButton" name="add_memory_btn">
+         <property name="minimumSize">
+          <size>
+           <width>301</width>
+           <height>61</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">display: inline-block;
+margin: 10px 0px;
+border-radius: 20px;
+background-color: #4267B2;
+background-position: 100% 0;
+font:19pt;
+font-family:&quot;Georgia&quot;;
+font-weight: bold;
+color: white;
+box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+transition: .5s;</string>
+         </property>
+         <property name="text">
+          <string>Добавить</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font:19pt;
+font-family:&quot;Georgia&quot;;
+font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>Добавьте воспоминание</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLineEdit" name="memory_name">
+           <property name="styleSheet">
+            <string notr="true">background-color: #DCDCDC;
+width: 100%;
+padding: 12px;
+border: 0pч;
+border-radius: 13px;
+box-sizing: border-box;
+font-family:&quot;Georgia&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="maxLength">
+            <number>100</number>
+           </property>
+           <property name="placeholderText">
+            <string>Название:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPlainTextEdit" name="memory_info">
+           <property name="styleSheet">
+            <string notr="true">border-radius: 50px;
+margin:5px;
+font-family:&quot;Georgia&quot;;</string>
+           </property>
+           <property name="tabChangesFocus">
+            <bool>false</bool>
+           </property>
+           <property name="plainText">
+            <string/>
+           </property>
+           <property name="placeholderText">
+            <string>Информация:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="add_pic_btn">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">display: inline-block;
+border-radius: 10px;
+background-color: gray;
+background-position: 100% 0;
+font:12pt;
+font-family: &quot;Georgia&quot;;
+font-weight: bold;
+color: white;
+box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+transition: .5s;</string>
+           </property>
+           <property name="text">
+            <string>Добавить фото</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../icons/image.png</normaloff>../icons/image.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>20</width>
+             <height>20</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="memory_coords">
+           <property name="styleSheet">
+            <string notr="true">background-color: #DCDCDC;
+width: 100%;
+padding: 12px;
+border: 0pч;
+border-radius: 13px;
+box-sizing: border-box;
+font-family: &quot;Georgia&quot;;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="maxLength">
+            <number>100</number>
+           </property>
+           <property name="placeholderText">
+            <string>Координаты места через пробел (необязательно):</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="1" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

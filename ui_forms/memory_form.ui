@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>702</width>
+    <height>532</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Register</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget" native="true">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="memory_name">
+         <property name="styleSheet">
+          <string notr="true">font:19pt;
+font-family:&quot;Georgia&quot;;
+font-weight: bold;</string>
+         </property>
+         <property name="text">
+          <string>ТУТ БУДЕТ НАЗВАНИЕ</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QPlainTextEdit" name="memory_info">
+             <property name="minimumSize">
+              <size>
+               <width>300</width>
+               <height>200</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>700</width>
+               <height>600</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">font-family:&quot;Georgia&quot;;</string>
+             </property>
+             <property name="tabChangesFocus">
+              <bool>false</bool>
+             </property>
+             <property name="readOnly">
+              <bool>true</bool>
+             </property>
+             <property name="plainText">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>Информация:</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="image_label">
+             <property name="minimumSize">
+              <size>
+               <width>300</width>
+               <height>300</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">width:70%;</string>
+             </property>
+             <property name="text">
+              <string>А ТУТ КАРТИНКА</string>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignCenter</set>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="open_map_btn">
+           <property name="minimumSize">
+            <size>
+             <width>301</width>
+             <height>61</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">display: inline-block;
+margin: 10px 0px;
+border-radius: 20px;
+background-color: #1f4f16;
+background-position: 100% 0;
+font:19pt;
+font-family:&quot;Georgia&quot;;
+font-weight: bold;
+color: white;
+box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+transition: .5s;</string>
+           </property>
+           <property name="text">
+            <string>Открыть карту места</string>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../icons/map.png</normaloff>../icons/map.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>24</width>
+             <height>24</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="close_btn">
+           <property name="minimumSize">
+            <size>
+             <width>301</width>
+             <height>61</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">display: inline-block;
+margin: 10px;
+margin-left:20px;
+margin-right:20px;
+border-radius: 20px;
+background-color: #4267B2;
+background-position: 100% 0;
+font:19pt;
+font-family:&quot;Georgia&quot;;
+font-weight: bold;
+color: white;
+box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+transition: .5s;</string>
+           </property>
+           <property name="text">
+            <string>Закрыть</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="maximumSize">
+            <size>
+             <width>70</width>
+             <height>150</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">display: inline-block;
+border-radius: 10px;
+background-color: #7cae43;
+background-position: 100% 0;
+font:19pt;
+font-family:&quot;Georgia&quot;;
+font-weight: bold;
+color: white;
+box-shadow: 0 16px 32px 0 rgba(0, 40, 120, .35);
+transition: .5s;</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset>
+             <normaloff>../icons/save-file.png</normaloff>../icons/save-file.png</iconset>
+           </property>
+           <property name="iconSize">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>close_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>311</x>
+     <y>498</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>525</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
